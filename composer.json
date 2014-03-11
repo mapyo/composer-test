@@ -4,15 +4,10 @@
     {
       "type": "vcs",
       "url": "git@github.com:mapyo/composer_lib_test.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:Seldaek/monolog.git"
     }
   ],
   "require": {
-    "mapyo/composer_lib_test": "1.0.4",
-    "monolog/monolog": "*"
+    "mapyo/composer_lib_test": "1.0.4"
   },
   "autoload": {
     "psr-4": {
