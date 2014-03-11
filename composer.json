@@ -1,0 +1,22 @@
+{
+  "repositories": [
+    { "packagist": false },
+    {
+      "type": "vcs",
+      "url": "git@github.com:mapyo/composer_lib_test.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:Seldaek/monolog.git"
+    }
+  ],
+  "require": {
+    "mapyo/composer_lib_test": "1.0.4",
+    "monolog/monolog": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "composer_lib_test\\": "vendor/mapyo/composer_lib_test/src"
+    }
+  }
+}
